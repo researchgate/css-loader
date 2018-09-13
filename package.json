@@ -1,9 +1,9 @@
 {
-  "name": "css-loader",
+  "name": "@researchgate/css-loader",
   "version": "1.0.0",
   "description": "A loader for webpack which transforms CSS files into JS module",
   "license": "MIT",
-  "repository": "https://github.com/webpack-contrib/css-loader",
+  "repository": "https://github.com/researchgate/css-loader",
   "author": "Tobias Koppers @sokra",
   "homepage": "https://github.com/webpack-contrib/css-loader",
   "bugs": "https://github.com/webpack-contrib/css-loader/issues",
