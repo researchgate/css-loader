@@ -1,6 +1,6 @@
 {
   "name": "@researchgate/css-loader",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A loader for webpack which transforms CSS files into JS module",
   "license": "MIT",
   "repository": "https://github.com/researchgate/css-loader",

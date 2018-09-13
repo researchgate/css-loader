@@ -2,6 +2,50 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/researchgate/css-loader/compare/v0.28.11...v2.0.0) (2018-09-13)
+
+
+* version 1.0 (#742) ([240db53](https://github.com/researchgate/css-loader/commit/240db53)), closes [#742](https://github.com/researchgate/css-loader/issues/742) [#709](https://github.com/researchgate/css-loader/issues/709)
+
+
+### Features
+
+* support icss ([2c2c757](https://github.com/researchgate/css-loader/commit/2c2c757))
+
+
+### BREAKING CHANGES
+
+* remove `minimize` option
+
+* refactor: remove `module` option
+* remove `module` option, use `modules` option instead
+
+* refactor: remove `camelcase` option
+* remove `camelcase` option, use `camelCase` option instead
+
+* refactor: remove `root` option
+* remove `root` option, use `postcss-loader` with `postcss-url` plugin instead
+
+* refactor: remove other `minimizer` stuff
+
+* refactor: remove `alias` option
+* remove `alias` option, use `webpack` `resolve.alias` option
+
+* refactor: readme
+
+* refactor: remove unused `object-assign`
+
+* chore(deps): update `postcss` to latest version
+
+* refactor: minimum require `nodejs` version is `6.9`
+* minimum require `nodejs` version is `6.9`
+
+* refactor: minimum require `webpack` version is `4`
+* minimum require `webpack` version is `4`
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/webpack-contrib/css-loader/compare/v0.28.11...v1.0.0) (2018-07-06)
 
